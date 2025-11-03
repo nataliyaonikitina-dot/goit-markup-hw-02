@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
-
-
 <!-- Connected Normalizer. Question is how to make one line link into 6 lines automatically. How to do this with prettier-->
 <link rel="stylesheet"
  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
  integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
- crossorigin="anonymous" 
- referrerpolicy="no-referrer">
+ crossorigin="anonymous" referrerpolicy="no-referrer" >
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  <!-- Adding class Adding a  attribute lets you target specific elements with CSS -->
-  <header class="page-header">
-    <nav class="header-nav">gi
-      <a class="logo header-logo" href="./index.html"
-      >Web<span class="logo-part">Studio</span></a>
-<!-- for every ul- item there should be separate name for class -->
-      <ul class="nav-list">
-        <li class="nav-item"><a class="nav-link" href="./index.html">Studio</a></li>
-        <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-      </ul>
-    </nav>
-    <address class="contacts">
-      <ul class="contacts-list">
-        <li class="contacts-item">
-        <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 
-        <li>
-        <li class="contacts-item">
-        <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-      </ul>
-    </address>
-  </header>
+<body>
+  <!-- Headed  Adding class Adding a  attribute lets you target specific elements with CSS -->
+ <!-- Header -->
+<header class="page-header">
+  <nav class="main-nav">
+    <!-- Logo -->
+    <a class="logo header-logo" href="./index.html">
+      Web<span class="logo-part">Studio</span>
+    </a>
+
+    <!-- Navigation list -->
+    <ul class="nav-list">
+      <li><a class="nav-link" href="./index.html">Studio</a></li>
+      <li><a class="nav-link" href="">Portfolio</a></li>
+      <li><a class="nav-link" href="">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contacts -->
+  <address class="contacts">
+    <ul class="contacts-list">
+      <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    </ul>
+  </address>
+</header>
 
   <main>
     <!-- Section 1 -->
@@ -52,100 +52,84 @@
 
     <!-- Section 2: Features -->
 <section class="features-section">
+  <h2>Features</h2>
   <ul class="features-list">
     <li class="features-item">
       <h3 class="features-title">Strategy</h3>
-      <p class="features-text">
-        Our goal is to identify the business problem to walk away with the perfect and creative solution.
-      </p>
+      <p class="features-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
     </li>
-
     <li class="features-item">
       <h3 class="features-title">Punctuality</h3>
-      <p class="features-text">
-        Bring the key message to the brand's audience for the best price within the shortest possible time.
-      </p>
+      <p class="features-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
     </li>
-
     <li class="features-item">
       <h3 class="features-title">Diligence</h3>
-      <p class="features-text">
-        Research and confirm brands with the strongest digital growth opportunities and minimize risk.
-      </p>
+      <p class="features-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
     </li>
-
     <li class="features-item">
       <h3 class="features-title">Technologies</h3>
-      <p class="features-text">
-        Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-      </p>
+      <p class="features-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
     </li>
   </ul>
 </section>
 
-    <!-- Section 3: Our Team -->
-    <section class="team-section">
-      <h2 class="team-title">Our Team</h2>
-      <ul class="team-list">
-        <li class="team-member">
-          <img src="./images/1_jpg.jpg" alt="Mark Guerrero Product Designer" width="264">
-          <h3 class="team-member-name">Mark Guerro</h3>
-          <p class="team-member-job">Product Designer</p>
-        </li>
-        <li class="team-member">
-          <img src="./images/2_jpg.jpg" alt="Tom Ford Frontend Developer" width="264">
-          <h3 class="team-member-name">Tom Ford</h3>
-          <p class="team-member-job">Frontend Developer</p>
-        </li>
-        <li class="team-member">
-          <img src="./images/3_jpg.jpg" alt="Camila Garcia Marketing" width="264">
-          <h3 class="team-member-name">Kamilla Garcia</h3>
-          <p class="team-member-job">Marketing</p>
-        </li>
-        <li class="team-member">
-          <img src="./images/4_jpg.jpg" alt="Daniel Wilson UI Designer" width="264">
-          <h3 class="team-member-photo">Daniel Wilson</h3>
-          <p class="team-member-job">UI Designer</p>
-        </li>
-      </ul>
-    </section>
-<!-- Section 4 -->
+  <!-- Section 3: Our Team -->
+<section class="team-section">
+  <h2 class="team-title">Our Team</h2>
+  <ul class="team-list">
+    <li class="team-item">
+      <img src="./images/1_jpg.jpg" alt="Mark Guerrero Product Designer" width="264">
+      <h3 class="features-title">Mark Guerrero</h3>
+      <p class="features-text">Product Designer</p>
+    </li>
+    <li class="team-item">
+      <img src="./images/2_jpg.jpg" alt="Tom Ford Frontend Developer" width="264">
+      <h3 class="features-title">Tom Ford</h3>
+      <p class="features-text">Frontend Developer</p>
+    </li>
+    <li class="team-item">
+      <img src="./images/3_jpg.jpg" alt="Camila Garcia Marketing" width="264">
+      <h3 class="features-title">Camila Garcia</h3>
+      <p class="features-text">Marketing</p>
+    </li>
+    <li class="team-item">
+      <img src="./images/4_jpg.jpg" alt="Daniel Wilson UI Designer" width="264">
+      <h3 class="features-title">Daniel Wilson</h3>
+      <p class="features-text">UI Designer</p>
+    </li>
+  </ul>
+</section>
 
+<!-- Section 4 -->
 <section class="portfolio-section">
   <h2 class="portfolio-title">Our Portfolio</h2>
-
   <ul class="portfolio-list">
-    <li>
+    <li class="portfolio-item">
       <img src="./images/5_jpg.jpg" alt="Banking App preview" width="360">
       <h3 class="images-title">Banking App</h3>
       <p class="images-text">App</p>
     </li>
-
-    <li>
+    <li class="portfolio-item">
       <img src="./images/6_jpg.jpg" alt="Cashless Payment preview" width="360">
       <h3 class="images-title">Cashless Payment</h3>
       <p class="images-text">Marketing</p>
     </li>
-
-    <li>
+    <li class="portfolio-item">
       <img src="./images/7_jpg.jpg" alt="Meditation App preview" width="360">
       <h3 class="images-title">Meditation App</h3>
       <p class="images-text">App</p>
     </li>
-
-    <li>
-      <img src="./images/8_jpj.jpg" alt="Taxi Service preview" width="360">
+    <li class="portfolio-item">
+      <img src="./images/8_jpg.jpg" alt="Taxi Service preview" width="360">
       <h3 class="images-title">Taxi Service</h3>
       <p class="images-text">Marketing</p>
     </li>
-
-    <li>
+    <li class="portfolio-item">
       <img src="./images/9_jpg.jpg" alt="Screen Illustrations preview" width="360">
       <h3 class="images-title">Screen Illustrations</h3>
       <p class="images-text">Design</p>
     </li>
-
-    <li>
+    <li class="portfolio-item">
       <img src="./images/10_jpg.jpg" alt="Online Courses preview" width="360">
       <h3 class="images-title">Online Courses</h3>
       <p class="images-text">Marketing</p>
@@ -154,6 +138,7 @@
 </section>
 
   </main>
+
  <footer class="page footer">
   <a class="logo-footer-logo" href="./index.html">
     Web<span class="logo-footer-part">Studio</span>
