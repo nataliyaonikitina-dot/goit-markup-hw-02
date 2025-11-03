@@ -1,10 +1,20 @@
-body {font-family: "Roboto", sans-serif;
-    color: #434455; 
-    background-color: #FFFFFF;
- }
-ul,ol {list-style-type: none;}
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 
-a {text-decoration: none;}
+/* List reset */
+ul, ol {
+  list-style-type: none;
+}
+
+/* Link reset */
+a {
+  text-decoration: none;
+}
+
 /* Logo styles */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -20,7 +30,7 @@ a {text-decoration: none;}
   color: #2e2f42;
 }
 
-/* Navigation link styles */
+/* Navigation links */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -28,26 +38,30 @@ a {text-decoration: none;}
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
+
 /* Address styles */
 .contacts {
   font-style: normal;
 }
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
-/* Section 1 styling  */
 
+/* Section 1: Slogan */
 .slogan {
   background-color: #2e2f42;
 }
@@ -66,7 +80,7 @@ a {text-decoration: none;}
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: #ffffff;
-  font-weight: 500; /* ✅ виправлено */
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -79,20 +93,21 @@ a {text-decoration: none;}
   background-color: #404bbf;
 }
 
-  /* Section 2 styling */
-
+/* Section 2: Features */
 .features-section {
   background-color: #ffffff;
 }
+
 .features-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  /* Removed: padding */
 }
+
 .features-item {
   background-color: #f4f4fd;
 }
-/* Headings inside list items */
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -100,7 +115,7 @@ a {text-decoration: none;}
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-/* Paragraphs inside list items */
+
 .features-text {
   font-size: 16px;
   line-height: 1.5;
@@ -126,7 +141,7 @@ a {text-decoration: none;}
 .team-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  /* Removed: padding */
 }
 
 .team-item {
@@ -148,8 +163,9 @@ a {text-decoration: none;}
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-}  
-/* Section 4: Our Portfolio */
+}
+
+/* Section 4: Portfolio */
 .portfolio-section {
   background-color: #ffffff;
 }
@@ -166,7 +182,7 @@ a {text-decoration: none;}
 .portfolio-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  /* Removed: padding */
 }
 
 .portfolio-item {
@@ -190,8 +206,8 @@ a {text-decoration: none;}
   text-align: center;
 }
 
-/* Footer styling */
- .page-footer {
+/* Footer */
+.page-footer {
   background-color: #2e2f42;
 }
 
